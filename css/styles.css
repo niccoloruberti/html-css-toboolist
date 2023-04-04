@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+/* header */
+header {
+    background-color: white;
+    height: 80px;
+    padding: 15px 20px;
+}
+
+.logo {
+    vertical-align: middle;
+}
+
+.nome-logo {
+    font-family: sans-serif;
+    font-size: 40px;
+    vertical-align: middle;
+}
