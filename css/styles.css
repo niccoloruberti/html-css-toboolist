@@ -24,3 +24,37 @@ header {
     font-size: 40px;
     vertical-align: middle;
 }
+
+/* main */
+
+#contenitore {
+    width: 70%;
+    margin: 80px auto;
+}
+
+    /* sezione bottoni */
+
+    #contenitore-bottoni {
+        padding: 10px 30px;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        background-color: white;
+    }
+
+    #add-task {
+        background-color: skyblue;
+        color: white;
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 10px;
+        border: none;
+    }
+
+    #add-section {
+        background-color: white;
+        color: grey;
+        border-radius: 5px;
+        font-size: 10px;
+        padding: 5px;
+        border: 1px solid gray;
+    }
