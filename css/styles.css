@@ -68,35 +68,84 @@ header {
         font-family: sans-serif;
     }
 
-    ul {
-        list-style-type: none;
-    }
+        .sezione-task {
+            padding-top: 15px;
+            margin: 1px 0 10px;
+        }
 
-    li {
-        height: 15px;
-        font-size: 60%;
-    }
+            ul {
+                list-style-type: none;
+            }
 
-    .check {
-        display: inline-block;
-        color: lightgreen;
-        border: 1px solid lightgreen;
-        border-radius: 50%;
-        height: 80%;
-        vertical-align: middle;
-    }
+            li {
+                height: 15px;
+                font-size: 60%;
+                margin: 5px 0;
+            }
 
-    .editorial {
-        display: inline-block;
-        background-color: skyblue;
-        color: white;
-        font-size: 40%;
-        padding: 2px;
-        border-radius: 5px;
-        vertical-align: middle;
-    }
+            .check {
+                display: inline-block;
+                color: lightgreen;
+                border: 1px solid lightgreen;
+                border-radius: 50%;
+                height: 80%;
+                vertical-align: middle;
+            }
 
-    .task {
-        display: inline-block;
-        vertical-align: middle;
-    }
+            .cross {
+                display: inline-block;
+                color: red;
+                border: 1px solid red;
+                border-radius: 50%;
+                height: 80%;
+                vertical-align: middle;
+                padding: 1px;
+            }
+
+
+            .editorial {
+                display: inline-block;
+                background-color: skyblue;
+                color: white;
+                font-size: 40%;
+                padding: 2px;
+                border-radius: 5px;
+                vertical-align: middle;
+            }
+
+            .q1-goals {
+                display: inline-block;
+                background-color: purple;
+                color: white;
+                font-size: 40%;
+                padding: 2px;
+                border-radius: 5px;
+                vertical-align: middle;
+            }
+
+            .recruiting {
+                display: inline-block;
+                background-color: green;
+                color: white;
+                font-size: 40%;
+                padding: 2px;
+                border-radius: 5px;
+                vertical-align: middle;
+            }
+
+            .mobile {
+                display: inline-block;
+                background-color: orange;
+                color: white;
+                font-size: 40%;
+                padding: 2px;
+                border-radius: 5px;
+                vertical-align: middle;
+            }
+
+
+            .task {
+                display: inline-block;
+                vertical-align: middle;
+            }
+
