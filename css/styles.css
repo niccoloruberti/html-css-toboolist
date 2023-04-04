@@ -65,7 +65,10 @@ header {
     #contenitore-task {
         background-color: white;
         padding-left: 30px;
+        padding-bottom: 30px;
         font-family: sans-serif;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
     }
 
         .sezione-task {
@@ -136,6 +139,26 @@ header {
             .mobile {
                 display: inline-block;
                 background-color: orange;
+                color: white;
+                font-size: 40%;
+                padding: 2px;
+                border-radius: 5px;
+                vertical-align: middle;
+            }
+
+            .website {
+                display: inline-block;
+                background-color: pink;
+                color: white;
+                font-size: 40%;
+                padding: 2px;
+                border-radius: 5px;
+                vertical-align: middle;
+            }
+
+            .sales {
+                display: inline-block;
+                background-color: lightgreen;
                 color: white;
                 font-size: 40%;
                 padding: 2px;
